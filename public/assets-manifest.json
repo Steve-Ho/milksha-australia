@@ -1,0 +1,22 @@
+{
+  "main.js": "render-page.js",
+  "render-page.js.map": "render-page.js.map",
+  "static/drink1.png": "static/drink1-74836d8ff7537b121724e1d0da2e6cb1.png",
+  "static/drink10.png": "static/drink10-363b20c97e8505ed6b1c4718dcd38192.png",
+  "static/drink2.png": "static/drink2-edee0dbf2bbb8d3c12b224c416986ae5.png",
+  "static/drink3.png": "static/drink3-205b6147611fda49327dd9dc5c1d0d6e.png",
+  "static/drink4.png": "static/drink4-bff73f88995e27923cd067a3fcb81c0a.png",
+  "static/drink5.png": "static/drink5-50e47b49ed0862dd507377a5979d8cf1.png",
+  "static/drink6.png": "static/drink6-425bb3923d6354e39b68f637181c2a42.png",
+  "static/drink7.png": "static/drink7-b409d85b1d3717b22e84d8298b0706df.png",
+  "static/drink8.png": "static/drink8-98f99f3752521e231d93c54e72be478f.png",
+  "static/drink9.png": "static/drink9-3c2b50b252dbc1c748e9d7edcee4aa4e.png",
+  "static/hero-image.png": "static/hero-image-df1dad2b2251cba2346cb7d4be32769f.png",
+  "static/milkybg.png": "static/milkybg-2b95d8b6e680a3287ec9306c5b08a96e.png",
+  "static/social1.jpg": "static/social1-d9c09cd18b5f30111eaa8156f7fcbde8.jpg",
+  "static/social2.jpg": "static/social2-62f2f8641301f6287040d2af7566831c.jpg",
+  "static/social3.jpg": "static/social3-e4860d830f334b2b8080e3fc79f63047.jpg",
+  "static/social4.jpg": "static/social4-0ac5042499a95a96afe7bf5511787eee.jpg",
+  "static/social5.jpg": "static/social5-80100ef3b52a27749734c77f9c08ce90.jpg",
+  "static/social6.jpg": "static/social6-202a3be1b6d930c078d28349cbde6569.jpg"
+}
