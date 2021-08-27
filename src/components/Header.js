@@ -13,10 +13,12 @@ const NavBar = (props) => {
     <NavBarContainer {...props}>
       <MenuToggle toggle={toggle} isOpen={isOpen} />
       <MenuLinks isOpen={isOpen} />
+      <Link href="/">
       <Logo
         w="100px"
         display = {{ base: "none", md: "block" }}
       />
+      </Link>
     </NavBarContainer>
   );
 };
@@ -79,19 +81,24 @@ const MenuLinks = ({ isOpen }) => {
         <MenuItem to="/about">About</MenuItem>
         <MenuItem to="/franchise">Franchise</MenuItem>
         <MenuItem to="/contact">Contact</MenuItem>
-        <MenuItem to="/order" isLast>
+        <MenuItem isLast>
           <Button
             size="sm"
             rounded="full"
             py={5}
             color={["primary.100", "primary.100", "white", "white"]}
             bg={["white", "white", "primary.100", "primary.100"]}
-            // _hover={{
-            //   bg: ["primary.100", "primary.100", "white", "white"]
-            // }}
+            _hover={{
+              color: ["white", "white", "primary.100", "primary.100"],
+              bg: ["primary.100", "primary.100", "white", "white"],
+            }}
+            border="1px solid"
+            borderColor={"primary.100"}
             fontFamily={'extrabold'}
           >
+            <Link href="https://www.milksha.com.au/onlineorder#/store/2520639" isExternal>
             ORDER NOW
+            </Link>
           </Button>
         </MenuItem>
       </Stack>

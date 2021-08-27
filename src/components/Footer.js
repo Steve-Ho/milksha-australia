@@ -74,7 +74,7 @@ import {
             width={{ base: '20%', md: '10%'}}
           />
           <Stack direction={'row'} spacing={6}>
-            <Link href={"/home"}>Home</Link>
+            <Link href={"/"}>Home</Link>
             <Link href={"/menu"}>Menu</Link>
             <Link href={"/about"}>About</Link>
             <Link href={"/contact"}>Contact</Link>

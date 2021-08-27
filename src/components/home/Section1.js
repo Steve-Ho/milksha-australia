@@ -6,6 +6,7 @@ import {
     Text,
     VStack,
     useBreakpointValue,
+    Link,
   } from '@chakra-ui/react';
 
   import homeHeroImage from '../../images/hero-image.png'
@@ -39,7 +40,9 @@ import {
                 size={'lg'}
                 py={8}
             >
+              <Link href="https://www.milksha.com.au/onlineorder#/store/2520639" isExternal>
                 Taste the <br/>freshness today!
+              </Link>
             </Button>
             <Text
               color={'white'}

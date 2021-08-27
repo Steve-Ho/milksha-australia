@@ -1,0 +1,15 @@
+input:focus, textarea:focus, select:focus {
+    border-color: #61840D !important;
+    box-shadow: 0 0 0 1px #61840D !important;
+}
+
+form > button {
+    background: #61840D !important;
+    color: white;
+}
+
+.franchise_link {
+    font-weight: bold;
+    color: #61840D;
+    text-decoration: underline;
+}

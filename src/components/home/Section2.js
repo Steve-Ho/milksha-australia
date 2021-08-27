@@ -6,6 +6,7 @@ import {
     Text,
     VStack,
     useBreakpointValue,
+    Link,
   } from '@chakra-ui/react';
 
   import milkImage from '../../images/milkybg.png'
@@ -65,7 +66,9 @@ import {
                 size={'lg'}
                 p={8}
             >
+              <Link href="./about">
                 Milksha’s <br />Philosophy
+              </Link>
             </Button>
 
           </Stack>

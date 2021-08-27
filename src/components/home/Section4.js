@@ -6,6 +6,7 @@ import {
     Text,
     VStack,
     useBreakpointValue,
+    Link,
   } from '@chakra-ui/react';
   
   
@@ -60,7 +61,9 @@ import {
                 textAlign={'left'}
                 size={'md'}
             >
+              <Link href="./franchise">
                 ENQUIRE TODAY
+              </Link>
             </Button>
 
           </Stack>
