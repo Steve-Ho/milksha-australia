@@ -17,7 +17,7 @@ import {
 
 import "./franchise_form.css";
 
-import franchise_pdf from '../../images/franchise/Milksha_Australia_Franchise_Pack.pdf'
+// import franchise_pdf from '../../images/franchise/Milksha_Australia_Franchise_Pack.pdf'
 
 export default function FranchiseSec2() {
   return (
@@ -51,7 +51,7 @@ export default function FranchiseSec2() {
             <br />
             <br />
             Click{" "}
-            <Link className="franchise_link" href={franchise_pdf} download>
+            <Link className="franchise_link" href="https://drive.google.com/file/d/1OLP1e4n31Teml1DUpvMM8MfqwoGwMqI0/view?usp=sharing">
               here
             </Link>{" "}
             for <strong>Milksha Franchise Pack.</strong>
