@@ -81,7 +81,7 @@ const MenuLinks = ({ isOpen }) => {
         <MenuItem to="/about">About</MenuItem>
         <MenuItem to="/franchise">Franchise</MenuItem>
         <MenuItem to="/contact">Contact</MenuItem>
-        <MenuItem isLast>
+        <MenuItem to="https://www.milksha.com.au/onlineorder#/store/2520639" isLast>
           <Button
             size="sm"
             rounded="full"
@@ -96,9 +96,7 @@ const MenuLinks = ({ isOpen }) => {
             borderColor={"primary.100"}
             fontFamily={'extrabold'}
           >
-            <Link href="https://www.milksha.com.au/onlineorder#/store/2520639" isExternal>
             ORDER NOW
-            </Link>
           </Button>
         </MenuItem>
       </Stack>

@@ -9,14 +9,17 @@ import {
     Link,
   } from '@chakra-ui/react';
   
+  import sec4_img from '../../images/sec4_img.png'
   
   export default function Section4() { 
 
     return (
       <Flex
         w={'full'}
-        backgroundSize={'cover'}
-        backgroundPosition={'center center'}
+        backgroundSize={'contain'}
+        backgroundRepeat={'no-repeat'}
+        backgroundPosition={{ lg: 'center right', xl: 'center right 20%'}}
+        backgroundImage={{ base: 'none', lg: sec4_img }}
         fontFamily={'extrabold'}
         backgroundColor={'#E9EFDC'}
         py={8}
@@ -43,7 +46,7 @@ import {
               AND BE PART OF THE REVOLUTION
             </Text>
             </Stack>
-            <Stack maxW={'2xl'} align={'flex-start'} spacing={6}>
+            <Stack maxW={'xl'} align={'flex-start'} spacing={6}>
             <Text
                 fontFamily={'Arial'}
                 fontSize={useBreakpointValue({ base: 'xs', md: 'lg' })}
