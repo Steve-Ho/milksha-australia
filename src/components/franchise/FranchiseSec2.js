@@ -39,22 +39,14 @@ export default function FranchiseSec2() {
             fontSize={useBreakpointValue({ base: "md", md: "xl" })}
             py={5}
           >
-            Be part of the <strong>Milksha Milk Revolution.</strong>
+            Be part of the <strong>Milksha Revolution.</strong>
             <br />
             <br />
             Consumers are becoming more aware and conscious about the product
             they are consuming and the impact on their health. Becoming part of
             the Milksha franchise network allows partners to build a company
             that values our philosophy on sustainability and high food standards
-            - giving everyone a fresh and natural tasting product that nourishes
-            the body.
-            <br />
-            <br />
-            Click{" "}
-            <Link className="franchise_link" href="https://drive.google.com/file/d/1OLP1e4n31Teml1DUpvMM8MfqwoGwMqI0/view?usp=sharing">
-              here
-            </Link>{" "}
-            for <strong>Milksha Franchise Pack.</strong>
+            - sharing Milksha's pureness and joy with everyone.
             <br />
             <br />
             We are accepting expressions of interest. <br />

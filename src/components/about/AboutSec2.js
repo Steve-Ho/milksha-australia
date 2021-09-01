@@ -210,7 +210,7 @@ export default function AboutSec2() {
 
               <Box>
                 <Text color="primary.200" fontSize="sm" textAlign="left">
-                Our signature honey pearls are cooked fresh in-store daily. The pearls are soaked in local Victorian honey for natural sweetness. Paired with our Earl Grey tea blend which has an invigorating citrus aroma, finished off with the smoothness of  St. David Dairy premium fresh milk. Enjoy either hot or cold.
+                Our signature honey pearls are cooked fresh in-store daily. The pearls are soaked in honey for natural sweetness. Paired with our Earl Grey tea blend which has an invigorating citrus aroma, finished off with the smoothness of  St. David Dairy premium fresh milk. Enjoy either hot or cold.
                 </Text>
               </Box>
 

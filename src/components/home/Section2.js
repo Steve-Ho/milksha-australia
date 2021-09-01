@@ -54,7 +54,7 @@ import {
                 fontSize={useBreakpointValue({ base: 'xs', md: 'lg' })}
             >
             We are passionate bubble tea drinkers. We care about what we consume. “Healthy” is probably not a word people normally associate with bubble tea, yet we are challenging that notion by doing things with the utmost care and providing what we believe is the best product. We are a bubble tea revolution.
-            <strong> Using premium-quality milk and only fresh ingredients, we strive to bring you the best bubble tea in Australia.</strong>
+            <strong> Using premium-quality milk and fresh ingredients, we strive to bring you the best bubble tea in Australia.</strong>
             <br /><br />
             We believe in caring for our environment and not littering it with plastic, therefore we are choosing paper, or renewable resources like bamboo, over plastic. The biodegradable bamboo straws in each beverage are both sustainable and effective—it will not melt or swell or break in your drink like other plastic alternatives. Going forward, we will continue to strive for minimal impact on the environment while not compromising on taste or quality.
             </Text>

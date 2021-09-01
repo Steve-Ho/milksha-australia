@@ -59,8 +59,6 @@ import map_eliz from '../../images/contact/map1.png'
                     134 Elizabeth St
                     <br />
                     Melbourne VIC 3000
-                    <br />
-                    Mon - Sun 12 PM - 8 PM
                   </Text>
                   <Text
                     color={"primary.100"}
@@ -78,9 +76,7 @@ import map_eliz from '../../images/contact/map1.png'
                   >
                     Kiosk KG04 Westfield Doncaster
                     <br />
-                    Melbourne VIC 3000
-                    <br />
-                    Mon - Sun 11:30 AM - 9:00 PM
+                    Doncaster VIC 3108
                   </Text>
                 </Stack>
               </VStack>

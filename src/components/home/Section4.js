@@ -34,9 +34,8 @@ import {
             <Text
               color={'primary.100'}
               fontFamily={'extrabold'}
-              
-              fontSize={useBreakpointValue({ base: '2xl', md: '4xl' })}>
-              JOIN OUR FAMILY
+              fontSize={useBreakpointValue({ base: 'xl', md: '3xl' })}>
+              BECOME OUR BUSINESS PARTNER TODAY!
             </Text>
             <Text
               color={'primary.100'}
@@ -52,9 +51,9 @@ import {
                 fontSize={useBreakpointValue({ base: 'xs', md: 'lg' })}
             >
             We are looking for enthusiastic and passionate individuals who want to be a part of Milksha’s franchise network, that not only offers great financial reward and support but provides customers a chance to be part of change. <br/>
-            <strong>This is the Milksha Milk Revolution.</strong> Consumers are becoming more aware and conscious about the product they are consuming and the impact on their health. Becoming part of the Milksha franchise network allows partners to build a company that values our philosophy on sustainability and high food standards - giving everyone a fresh and natural tasting product that nourishes the body. 
+            <strong>This is the Milksha Revolution.</strong> Consumers are becoming more aware and conscious about the product they are consuming and the impact on their health. Becoming part of the Milksha franchise network allows partners to build a company that values our philosophy on sustainability and high food standards - sharing pureness and joy with customers. 
             <br/><br/>
-            We are just starting in Melbourne, now accepting expressions of interest. Please drop us a call or fill the form below. 
+            Show us your expressions of interest. Please drop us a call or fill the form below. 
             </Text>
             <Button
                 bg={'white'}
