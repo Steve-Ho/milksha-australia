@@ -7,8 +7,8 @@ import { ChakraProvider } from "@chakra-ui/react";
 import customTheme from "../utils/theme";
 import Fonts from "../components/Fonts";
 
-import About_sec1 from "../components/about/AboutSec1";
-import About_sec2 from "../components/about/AboutSec2";
+import AboutSec1 from "../components/about/AboutSec1";
+import AboutSec2 from "../components/about/AboutSec2";
 
 const About = () => {
   return (
@@ -21,8 +21,8 @@ const About = () => {
       <Fonts />
       <Header />
 
-      <About_sec1 />
-      <About_sec2 />
+      <AboutSec1 />
+      <AboutSec2 />
 
       <Footer />
     </ChakraProvider>

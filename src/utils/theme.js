@@ -16,8 +16,6 @@ const colors = {
 };
 
 
-
-
 const customTheme = extendTheme({ 
   colors,
   fonts: {

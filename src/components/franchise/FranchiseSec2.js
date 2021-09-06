@@ -10,14 +10,13 @@ import {
   Input,
   Textarea,
   Button,
-  Link,
   Select,
   Container,
 } from "@chakra-ui/react";
 
 import "./franchise_form.css";
 
-// import franchise_pdf from '../../images/franchise/Milksha_Australia_Franchise_Pack.pdf'
+
 
 export default function FranchiseSec2() {
   return (
@@ -85,6 +84,7 @@ export default function FranchiseSec2() {
             </Stack>
             <Stack direction={["column", "row"]} spacing="10px" pt={5}>
               <VStack align="start">
+              <FormControl id="state">
                 <Text
                   color={"primary.100"}
                   fontSize={"1rem"}
@@ -93,7 +93,7 @@ export default function FranchiseSec2() {
                 >
                   STATE
                 </Text>
-                <Select placeholder="STATE">
+                <Select placeholder="STATE" name="state">
                   <option value="New South Wales">New South Wales</option>
                   <option value="Victoria">Victoria</option>
                   <option value="Queensland">Queensland</option>
@@ -105,12 +105,14 @@ export default function FranchiseSec2() {
                   </option>
                   <option value="Northern Territory">Northern Territory</option>
                 </Select>
+                </FormControl>
               </VStack>
               <FormControl id="postcode">
                 <FormLabel color={"primary.100"}>POST CODE</FormLabel>
                 <Input name="postcode" type="number" placeholder="POST CODE" />
               </FormControl>
             </Stack>
+            <FormControl id="message">
             <Text
               pt={2}
               pb={2}
@@ -121,7 +123,8 @@ export default function FranchiseSec2() {
             >
               MESSAGE
             </Text>
-            <Textarea />
+            <Textarea name="message" />
+            </FormControl>
             <Button loadingText="Sending" variant="solid" mt={4} type="submit">
               Send
             </Button>

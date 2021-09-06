@@ -7,8 +7,8 @@ import { ChakraProvider } from "@chakra-ui/react";
 import customTheme from "../utils/theme";
 import Fonts from "../components/Fonts";
 
-import Franchise_sec1 from "../components/franchise/FranchiseSec1";
-import Franchise_sec2 from "../components/franchise/FranchiseSec2";
+import FranchiseSec1 from "../components/franchise/FranchiseSec1";
+import FranchiseSec2 from "../components/franchise/FranchiseSec2";
 
 const Franchise = () => {
   return (
@@ -21,8 +21,8 @@ const Franchise = () => {
       <Fonts />
       <Header />
 
-      <Franchise_sec1 />
-      <Franchise_sec2 />
+      <FranchiseSec1 />
+      <FranchiseSec2 />
 
       <Footer />
     </ChakraProvider>

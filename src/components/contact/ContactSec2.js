@@ -105,8 +105,10 @@ import map_eliz from '../../images/contact/map1.png'
                     <Input name="phoneNumber" type="tel" placeholder="Phone Number" />
                 </FormControl>
                 </Stack>
+                <FormControl id="message">
                 <Text my="8px" color={'primary.100'} fontSize={'1rem'} fontWeight={'500'} textAlign={'left'}>MESSAGE</Text>
-                <Textarea/>
+                <Textarea name="message" />
+                </FormControl>
                 <Button
                     loadingText="Sending"
                     variant="solid"

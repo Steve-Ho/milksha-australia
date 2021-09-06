@@ -2,7 +2,7 @@ import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Image } from '@chakra-ui/react';
+import { Image, Text, VStack } from '@chakra-ui/react';
 
 import Drink1 from '../../images/top10drinks/drink1.png'
 import Drink2 from '../../images/top10drinks/drink2.png'
@@ -27,9 +27,16 @@ import "./section3.css";
 // install Swiper modules
 // SwiperCore.use([Pagination]);
 
+
+
+
+
+
 export default function Section3() {
+
   return (
     <>
+      {/* <Text>Top 10s</Text> */}
       <Swiper
         slidesPerView={1}
         spaceBetween={5}
@@ -39,72 +46,102 @@ export default function Section3() {
         breakpoints={{
           "@0.00": {
             slidesPerView: 1,
-            spaceBetween: 0
+            spaceBetween: 0,
           },
           "@0.75": {
             slidesPerView: 2,
-            spaceBetween: 20
+            spaceBetween: 20,
           },
           "@1.00": {
             slidesPerView: 3,
-            spaceBetween: 40
+            spaceBetween: 40,
           },
           "@1.50": {
             slidesPerView: 5,
-            spaceBetween: 0
-          }
+            spaceBetween: 0,
+          },
         }}
         className="mySwiper"
       >
         <SwiperSlide>
-          <Image 
-            src={Drink1}
-          />
+          <VStack>
+            <Image src={Drink1} />
+            <Text fontFamily="bold" color="primary.100">
+              Brown Sugar Milk <br/><small>with coffee jelly</small>
+            </Text>
+          </VStack>
         </SwiperSlide>
         <SwiperSlide>
-          <Image 
-            src={Drink2}
-          />
+        <VStack>
+            <Image src={Drink2} />
+            <Text fontFamily="bold" color="primary.100">
+              Valrhona 100% Cocoa Milk <br/><small>with honey pearls</small>
+            </Text>
+          </VStack>
         </SwiperSlide>
         <SwiperSlide>
-          <Image 
-            src={Drink3}
-          />
+        <VStack>
+            <Image src={Drink3} />
+            <Text fontFamily="bold" color="primary.100">
+              Earl Grey Tea Latte <br/><small>with honey pearls</small>
+            </Text>
+          </VStack>
         </SwiperSlide>
         <SwiperSlide>
-          <Image 
-            src={Drink4}
-          />
+        <VStack>
+            <Image src={Drink4} />
+            <Text fontFamily="bold" color="primary.100">
+              Fresh Taro Milk
+            </Text>
+          </VStack>
         </SwiperSlide>
         <SwiperSlide>
-          <Image 
-            src={Drink5}
-          />
+        <VStack>
+            <Image src={Drink5} />
+            <Text fontFamily="bold" color="primary.100">
+              Genmaicha Milk <br/><small>with honey pearls</small>
+            </Text>
+          </VStack>
         </SwiperSlide>
         <SwiperSlide>
-          <Image 
-            src={Drink6}
-          />
+        <VStack>
+            <Image src={Drink6} />
+            <Text fontFamily="bold" color="primary.100">
+              Iced Blended<br/>Lemon Green Tea
+            </Text>
+          </VStack>
         </SwiperSlide>
         <SwiperSlide>
-          <Image 
-            src={Drink7}
-          />
+        <VStack>
+            <Image src={Drink7} />
+            <Text fontFamily="bold" color="primary.100">
+              Japanese Matcha Milk <br/><small>with red beans</small>
+            </Text>
+          </VStack>
         </SwiperSlide>
         <SwiperSlide>
-          <Image 
-            src={Drink8}
-          />
+        <VStack>
+            <Image src={Drink8} />
+            <Text fontFamily="bold" color="primary.100">
+              Orange Green Tea
+            </Text>
+          </VStack>
         </SwiperSlide>
         <SwiperSlide>
-          <Image 
-            src={Drink9}
-          />
+        <VStack>
+            <Image src={Drink9} />
+            <Text fontFamily="bold" color="primary.100">
+              Soy Oolong Tea Latte <br/><small>with pudding</small>
+            </Text>
+          </VStack>
         </SwiperSlide>
         <SwiperSlide>
-          <Image 
-            src={Drink10}
-          />
+        <VStack>
+            <Image src={Drink10} />
+            <Text fontFamily="bold" color="primary.100">
+              Watermelon Lemon Juice <br/><small>with herbal jelly</small>
+            </Text>
+          </VStack>
         </SwiperSlide>
       </Swiper>
     </>
