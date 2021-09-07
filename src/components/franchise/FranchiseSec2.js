@@ -12,7 +12,13 @@ import {
   Button,
   Select,
   Container,
+  UnorderedList,
+  ListItem,
+  List,
+  ListIcon,
 } from "@chakra-ui/react";
+
+import { CheckCircleIcon } from '@chakra-ui/icons'
 
 import "./franchise_form.css";
 
@@ -48,6 +54,26 @@ export default function FranchiseSec2() {
             - sharing Milksha's pureness and joy with everyone.
             <br />
             <br />
+            <List spacing={3}>
+              <Text>If you feel you have:</Text>
+            
+              <ListItem fontSize={'md'}><ListIcon as={CheckCircleIcon} color="green.500" boxSize={4} />Passion and energy for bubble tea</ListItem>
+              <ListItem fontSize={'md'}><ListIcon as={CheckCircleIcon} color="green.500" boxSize={4} />A positive attitude and drive</ListItem>
+              <ListItem fontSize={'md'}><ListIcon as={CheckCircleIcon} color="green.500" boxSize={4} />The willingness to learn and embrace new things</ListItem>
+              <ListItem fontSize={'md'}><ListIcon as={CheckCircleIcon} color="green.500" boxSize={4} />The ability to manage and operate your store</ListItem>
+              <ListItem fontSize={'md'}><ListIcon as={CheckCircleIcon} color="green.500" boxSize={4} />The hunger to succeed while doing something you love</ListItem>
+            
+              <Text>As a franchisee, you get:</Text>
+            
+              <ListItem fontSize={'md'}><ListIcon as={CheckCircleIcon} color="green.500" boxSize={4} />A wealth of knowledge, training and ongoing operational support</ListItem>
+              <ListItem fontSize={'md'}><ListIcon as={CheckCircleIcon} color="green.500" boxSize={4} />New product development and innovation</ListItem>
+              <ListItem fontSize={'md'}><ListIcon as={CheckCircleIcon} color="green.500" boxSize={4} />National and local area marketing support</ListItem>
+              <ListItem fontSize={'md'}><ListIcon as={CheckCircleIcon} color="green.500" boxSize={4} />Premium leasing and site selection</ListItem>
+              <ListItem fontSize={'md'}><ListIcon as={CheckCircleIcon} color="green.500" boxSize={4} />Store design and bespoke shop fitout</ListItem>
+            
+            </List>
+            <br />
+            
             We are accepting expressions of interest. <br />
             Please fill the form below and will be in contact soon.
           </Text>
