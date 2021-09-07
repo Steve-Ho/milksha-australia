@@ -73,6 +73,8 @@ export default function FranchiseSec2() {
             
             </List>
             <br />
+            We welcome you to join Milksha's franchise opportunities all across in Australia.
+            <br /><br />
             
             We are accepting expressions of interest. <br />
             Please fill the form below and will be in contact soon.
