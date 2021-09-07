@@ -16,6 +16,7 @@ import {
     Input,
     Textarea,
     Button,
+    Link,
   } from '@chakra-ui/react';
 
   import "./form.css";
@@ -49,12 +50,11 @@ import map_eliz from '../../images/contact/map1.png'
                     fontWeight={"bold"}
                     textTransform={"uppercase"}
                   >
-                    Elizabeth Street Store
+                    <Link href="https://www.google.com/maps/place/Milksha+Elizabeth/@-37.8149236,144.961587,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad643216ce803b1:0xb7f2aa25d70634f1!8m2!3d-37.8149236!4d144.9637757" isExternal>Elizabeth Street Store</Link>
                   </Text>
                   <Text
                     color={"primary.200"}
                     fontSize={useBreakpointValue({ base: "md", md: "xl" })}
-                    pt={5}
                   >
                     134 Elizabeth St
                     <br />
@@ -67,16 +67,33 @@ import map_eliz from '../../images/contact/map1.png'
                     textTransform={"uppercase"}
                     pt={10}
                   >
-                    westfield doncaster shopping centre
+                    <Link href="https://www.google.com/maps/place/Milksha+Westfield+Doncaster/@-37.7847572,145.1234272,17z/data=!3m2!4b1!5s0x6ad6476f76067425:0x6e3ce34b236bdbd5!4m5!3m4!1s0x6ad647ecaa216b4d:0x263787f8bf016f07!8m2!3d-37.7847615!4d145.1256212" isExternal>westfield doncaster shopping centre</Link>
                   </Text>
                   <Text
                     color={"primary.200"}
                     fontSize={useBreakpointValue({ base: "md", md: "xl" })}
-                    pt={5}
                   >
                     Kiosk KG04 Westfield Doncaster
                     <br />
                     Doncaster VIC 3108
+                  </Text>
+                  <Text
+                    color={"primary.100"}
+                    fontSize={useBreakpointValue({ base: "md", md: "2xl" })}
+                    fontWeight={"bold"}
+                    textTransform={"uppercase"}
+                    pt={10}
+                  >
+                    Victoria suburbs coming soon...
+                  </Text>
+                  <Text
+                    color={"primary.100"}
+                    fontSize={useBreakpointValue({ base: "md", md: "2xl" })}
+                    fontWeight={"bold"}
+                    textTransform={"uppercase"}
+                    pt={10}
+                  >
+                    Queensland coming soon...
                   </Text>
                 </Stack>
               </VStack>
