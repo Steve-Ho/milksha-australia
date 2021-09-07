@@ -36,7 +36,7 @@ export default function Section3() {
 
   return (
     <>
-      {/* <Text>Top 10s</Text> */}
+      <Text fontSize={{ base: 'xl', md: '2xl' }} color="primary.100" pt={{ base: 10, md: 10 }} pl={{ base: 0, md: 20 }} textAlign={{ base: 'center' , md: 'left' }} fontFamily={'extrabold'}>Top 10 Signature Drinks</Text>
       <Swiper
         slidesPerView={1}
         spaceBetween={5}
