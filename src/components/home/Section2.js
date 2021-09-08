@@ -78,7 +78,6 @@ import {
           display={{base: 'none', lg: 'block'}}
           src={sec2_img} 
           width='300px'
-          mt='-100px'
         />
       </Flex>
     );

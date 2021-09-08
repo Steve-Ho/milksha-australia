@@ -84,7 +84,13 @@ import map_eliz from '../../images/contact/map1.png'
                     textTransform={"uppercase"}
                     pt={10}
                   >
-                    Victoria suburbs coming soon...
+                    Victoria suburbs
+                  </Text>
+                  <Text
+                    color={"primary.200"}
+                    fontSize={useBreakpointValue({ base: "md", md: "xl" })}
+                  >
+                    Coming soon...
                   </Text>
                   <Text
                     color={"primary.100"}
@@ -93,7 +99,13 @@ import map_eliz from '../../images/contact/map1.png'
                     textTransform={"uppercase"}
                     pt={10}
                   >
-                    Queensland coming soon...
+                    Queensland
+                  </Text>
+                  <Text
+                    color={"primary.200"}
+                    fontSize={useBreakpointValue({ base: "md", md: "xl" })}
+                  >
+                    Coming soon...
                   </Text>
                 </Stack>
               </VStack>
