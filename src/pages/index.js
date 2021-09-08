@@ -18,6 +18,7 @@ const IndexPage = () => {
         <meta name="description" content="Milksha Australia" />
         <title>Milksha Australia</title>
         <link rel="canonical" href="https://www.milksha.com.au/" />
+        <script src="https://w.abacus.co/distwc/js/AbacusOnlineOrderingImport.js"></script>
       </Helmet>
       <Fonts />
       <Header />

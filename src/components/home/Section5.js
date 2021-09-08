@@ -10,7 +10,7 @@ import "swiper/components/navigation/navigation.min.css"
 
 // import "./section5.css";
 
-import { Image } from '@chakra-ui/react';
+import { Image, Link } from '@chakra-ui/react';
 
 import social1 from '../../images/social/social1.jpg'
 import social2 from '../../images/social/social2.jpg'
@@ -64,34 +64,46 @@ export default function Section5() {
         className="mySwiper"
       >
         <SwiperSlide>
+            <Link href="https://www.instagram.com/milksha_australia/" isExternal>
             <Image 
                 src={social1}
             />
+            </Link>
         </SwiperSlide>
         <SwiperSlide>
+            <Link href="https://www.instagram.com/milksha_australia/" isExternal>
             <Image 
                 src={social2}
             />
+            </Link>
         </SwiperSlide>
         <SwiperSlide>
+            <Link href="https://www.instagram.com/milksha_australia/" isExternal>
             <Image 
                 src={social3}
             />
+            </Link>
         </SwiperSlide>
         <SwiperSlide>
+            <Link href="https://www.instagram.com/milksha_australia/" isExternal>
             <Image 
                 src={social4}
             />
+            </Link>
         </SwiperSlide>
         <SwiperSlide>
+            <Link href="https://www.instagram.com/milksha_australia/" isExternal>
             <Image 
                 src={social5}
             />
+            </Link>
         </SwiperSlide>
         <SwiperSlide>
+            <Link href="https://www.instagram.com/milksha_australia/" isExternal>
             <Image 
                 src={social6}
             />
+            </Link>
         </SwiperSlide>
       </Swiper>
     </>
