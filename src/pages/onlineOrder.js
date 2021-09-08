@@ -1,30 +1,33 @@
-import * as React from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
-
-import Home from "./home";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
 import { ChakraProvider } from "@chakra-ui/react";
 import customTheme from "../utils/theme";
 import Fonts from "../components/Fonts";
 
-const IndexPage = () => {
+import OnlineOrderSec1 from "../components/onlineOrder/OnlineOrderSec1";
+
+
+const About = () => {
   return (
     <ChakraProvider theme={customTheme}>
       <Helmet>
         <meta charSet="utf-8" />
-        <meta name="description" content="Milksha Australia" />
-        <title>Milksha Australia</title>
-        <link rel="canonical" href="https://www.milksha.com.au/" />
+        <title>Milksha Australia - Online Order</title>
+        <meta name="description" content="Milksha Online Order" />
+        <script type="text/javascript" src="https://w.abacus.co/distwc/js/AbacusOnlineOrderingImport.js"></script>
       </Helmet>
       <Fonts />
       <Header />
-      <Home />
+
+      <OnlineOrderSec1 />
+      
+
       <Footer />
     </ChakraProvider>
   );
 };
 
-export default IndexPage;
+export default About;

@@ -40,7 +40,7 @@ import {
                 size={'lg'}
                 py={8}
             >
-              <Link href="https://www.milksha.com.au/onlineorder#/store/2520639" isExternal>
+              <Link href="./onlineOrder">
                 Taste the <br/>freshness today!
               </Link>
             </Button>

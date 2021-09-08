@@ -81,7 +81,7 @@ const MenuLinks = ({ isOpen }) => {
         <MenuItem to="/about">About</MenuItem>
         <MenuItem to="/franchise">Franchise</MenuItem>
         <MenuItem to="/contact">Contact</MenuItem>
-        <MenuItem id="oo-embedded" storeid="2520639" return-url="https://milkshaaustralia.gatsbyjs.io/" isLast>
+        <MenuItem to="/onlineOrder" isLast>
           <Button
             size="sm"
             rounded="full"
