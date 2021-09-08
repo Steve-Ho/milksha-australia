@@ -17,7 +17,7 @@ const About = () => {
         <meta charSet="utf-8" />
         <title>Milksha Australia - Online Order</title>
         <meta name="description" content="Milksha Online Order" />
-        <script type="text/javascript" src="https://w.abacus.co/distwc/js/AbacusOnlineOrderingImport.js"></script>
+        <script type="text/javascript" src="https://w.abacus.co/distwc/js/AbacusOnlineOrderingImport.js" async defer></script>
       </Helmet>
       <Fonts />
       <Header />
