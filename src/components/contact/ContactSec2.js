@@ -112,7 +112,7 @@ import map_eliz from '../../images/contact/map1.png'
                         <Input name="lastName" type="text" placeholder="Last Name" />
                     </FormControl>
                 </Stack>
-                <Stack direction={['column', 'row']} spacing="10px">
+                <Stack direction={['column', 'row']} spacing="10px" mt="3">
                 <FormControl id="email" isRequired>
                     <FormLabel color={'primary.100'}>EMAIL</FormLabel>
                     <Input type="email" placeholder="Email" name="_replyto" />

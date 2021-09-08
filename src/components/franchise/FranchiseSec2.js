@@ -117,6 +117,7 @@ export default function FranchiseSec2() {
                   fontSize={"1rem"}
                   fontWeight={"500"}
                   textAlign={"left"}
+                  mb={'8px'}
                 >
                   STATE
                 </Text>
@@ -141,7 +142,7 @@ export default function FranchiseSec2() {
             </Stack>
             <FormControl id="message">
             <Text
-              pt={2}
+              pt={5}
               pb={2}
               color={"primary.100"}
               fontSize={"1rem"}
