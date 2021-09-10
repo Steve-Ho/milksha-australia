@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "milksha-australia",
+    siteUrl: "https://www.milksha.com.au",
+    title: "Milksha Australia",
+    description: "Milksha Australia",
   },
   plugins: [
     "gatsby-plugin-theme-ui",

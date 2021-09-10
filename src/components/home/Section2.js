@@ -12,7 +12,8 @@ import {
 
   import milkImage from '../../images/milkybg.png'
 
-  import sec2_img from '../../images/sec2_img.png'
+  // import sec2_img from '../../images/sec2_img.png'
+  import sec2_img from '../../images/sec2_img.webp'
   
   export default function Section2() { 
 

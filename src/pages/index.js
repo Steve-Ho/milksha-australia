@@ -14,6 +14,7 @@ const IndexPage = () => {
   return (
     <ChakraProvider theme={customTheme}>
       <Helmet>
+        <html lang="en" />
         <meta charSet="utf-8" />
         <meta name="description" content="Milksha Australia" />
         <title>Milksha Australia</title>

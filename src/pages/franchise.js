@@ -14,6 +14,7 @@ const Franchise = () => {
   return (
     <ChakraProvider theme={customTheme}>
       <Helmet>
+        <html lang="en" />
         <meta charSet="utf-8" />
         <title>Milksha Australia - Franchise</title>
         <meta name="description" content="Milksha Franchise" />

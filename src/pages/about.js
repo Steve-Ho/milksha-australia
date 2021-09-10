@@ -14,6 +14,7 @@ const About = () => {
   return (
     <ChakraProvider theme={customTheme}>
       <Helmet>
+        <html lang="en" />
         <meta charSet="utf-8" />
         <title>Milksha Australia - About</title>
         <meta name="description" content="Milksha About" />

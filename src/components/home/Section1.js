@@ -9,7 +9,7 @@ import {
     Link,
   } from '@chakra-ui/react';
 
-  import homeHeroImage from '../../images/hero-image.png'
+  import homeHeroImage from '../../images/hero-image.jpg'
 
   
   
