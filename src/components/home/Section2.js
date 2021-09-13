@@ -10,9 +10,9 @@ import {
     Image,
   } from '@chakra-ui/react';
 
-  import milkImage from '../../images/milkybg.png'
+  import milkImage from '../../images/milkybg.webp'
 
-  // import sec2_img from '../../images/sec2_img.png'
+  
   import sec2_img from '../../images/sec2_img.webp'
   
   export default function Section2() { 
