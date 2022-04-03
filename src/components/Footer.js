@@ -62,7 +62,7 @@ import {
             color={'white'}
         >
             <Text>
-                © 2021 Milksha. All rights reserved
+                © 2022 Milksha. All rights reserved
             </Text>
             <Stack direction={'row'} spacing={3}>
                 <Link href="https://www.instagram.com/milksha_australia/" isExternal>
