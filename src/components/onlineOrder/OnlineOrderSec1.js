@@ -4,9 +4,6 @@ import {
   } from '@chakra-ui/react';
 
   
-  // window.onload = function(){
-  //   <script src="https://w.abacus.co/distwc/js/AbacusOnlineOrderingImport.js"></script>
-  // };
   
   export default function OnlineOrderSec1() { 
     
