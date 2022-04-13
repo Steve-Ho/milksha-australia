@@ -81,7 +81,7 @@ const MenuLinks = ({ isOpen }) => {
         <MenuItem to="/about">About</MenuItem>
         <MenuItem to="/franchise">Franchise</MenuItem>
         <MenuItem to="/contact">Contact</MenuItem>
-        <MenuItem to="/onlineOrder">
+        <MenuItem to="/onlineOrder" isLast>
           <Button
             size="sm"
             rounded="full"
@@ -96,45 +96,10 @@ const MenuLinks = ({ isOpen }) => {
             borderColor={"primary.100"}
             fontFamily={'extrabold'}
           >
-            Elizabeth Store
+            Online Order
           </Button>
         </MenuItem>
-        <MenuItem to="/onlineOrder2">
-          <Button
-            size="sm"
-            rounded="full"
-            py={5}
-            color={["primary.100", "primary.100", "white", "white"]}
-            bg={["white", "white", "primary.100", "primary.100"]}
-            _hover={{
-              color: ["white", "white", "primary.100", "primary.100"],
-              bg: ["primary.100", "primary.100", "white", "white"],
-            }}
-            border="1px solid"
-            borderColor={"primary.100"}
-            fontFamily={'extrabold'}
-          >
-            Doncaster Store
-          </Button>
-        </MenuItem>
-        <MenuItem to="/onlineOrder3" isLast>
-          <Button
-            size="sm"
-            rounded="full"
-            py={5}
-            color={["primary.100", "primary.100", "white", "white"]}
-            bg={["white", "white", "primary.100", "primary.100"]}
-            _hover={{
-              color: ["white", "white", "primary.100", "primary.100"],
-              bg: ["primary.100", "primary.100", "white", "white"],
-            }}
-            border="1px solid"
-            borderColor={"primary.100"}
-            fontFamily={'extrabold'}
-          >
-            Brisbane Store
-          </Button>
-        </MenuItem>
+        
       </Stack>
     </Box>
   );

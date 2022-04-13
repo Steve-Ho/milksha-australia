@@ -7,23 +7,23 @@ import { ChakraProvider } from "@chakra-ui/react";
 import customTheme from "../utils/theme";
 import Fonts from "../components/Fonts";
 
-import OnlineOrderSec3 from "../components/onlineOrder/OnlineOrderSec3";
+import Store2 from "../components/stores/Store2";
 
 
-const About = () => {
+const store2 = () => {
   return (
     <ChakraProvider theme={customTheme}>
       <Helmet>
         <html lang="en" />
         <meta charSet="utf-8" />
-        <title>Milksha Australia - Online Order - Brisbane Store</title>
-        <meta name="description" content="Milksha Online Order" />
-        <script type="text/javascript" src="https://w.abacus.co/distwc/js/AbacusOnlineOrderingImport.js" async defer></script>
+        <title>Milksha Australia - Stores</title>
+        <meta name="description" content="Milksha Stores" />
+        <script type="text/javascript" src="https://w.abacus.co/distwc/js/AbacusstoresingImport.js" async defer></script>
       </Helmet>
       <Fonts />
       <Header />
 
-      <OnlineOrderSec3 />
+      <Store2 />
       
 
       <Footer />
@@ -31,4 +31,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default store2;

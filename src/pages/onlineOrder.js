@@ -10,15 +10,15 @@ import Fonts from "../components/Fonts";
 import OnlineOrderSec1 from "../components/onlineOrder/OnlineOrderSec1";
 
 
-const About = () => {
+const onlineOrder = () => {
   return (
     <ChakraProvider theme={customTheme}>
       <Helmet>
         <html lang="en" />
         <meta charSet="utf-8" />
-        <title>Milksha Australia - Online Order - Elizabeth Store</title>
+        <title>Milksha Australia - Online Order</title>
         <meta name="description" content="Milksha Online Order" />
-        <script type="text/javascript" src="https://w.abacus.co/distwc/js/AbacusOnlineOrderingImport.js" async defer></script>
+        {/* <script type="text/javascript" src="https://w.abacus.co/distwc/js/AbacusOnlineOrderingImport.js" async defer></script> */}
       </Helmet>
       <Fonts />
       <Header />
@@ -31,4 +31,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default onlineOrder;

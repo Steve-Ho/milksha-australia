@@ -84,21 +84,6 @@ import map_eliz from '../../images/contact/map1.png'
                     textTransform={"uppercase"}
                     pt={10}
                   >
-                    Victoria suburbs
-                  </Text>
-                  <Text
-                    color={"primary.200"}
-                    fontSize={useBreakpointValue({ base: "md", md: "xl" })}
-                  >
-                    Coming soon...
-                  </Text>
-                  <Text
-                    color={"primary.100"}
-                    fontSize={useBreakpointValue({ base: "md", md: "2xl" })}
-                    fontWeight={"bold"}
-                    textTransform={"uppercase"}
-                    pt={10}
-                  >
                     <Link href="https://www.google.com/maps/place/Shop+2%2F115+Albert+St,+Brisbane+City+QLD+4000/@-27.4713329,153.0248546,17z/data=!3m1!4b1!4m5!3m4!1s0x6b915a1b30bde04b:0x42d9d1d395646a16!8m2!3d-27.4713329!4d153.0270433" isExternal>Brisbane Store</Link>
                   </Text>
                   <Text
@@ -108,6 +93,21 @@ import map_eliz from '../../images/contact/map1.png'
                     Shop 2, 115 Albert Street
                     <br />
                     Brisbane QLD 4000
+                  </Text>
+                  <Text
+                    color={"primary.100"}
+                    fontSize={useBreakpointValue({ base: "md", md: "2xl" })}
+                    fontWeight={"bold"}
+                    textTransform={"uppercase"}
+                    pt={10}
+                  >
+                    Victoria suburbs
+                  </Text>
+                  <Text
+                    color={"primary.200"}
+                    fontSize={useBreakpointValue({ base: "md", md: "xl" })}
+                  >
+                    Coming soon...
                   </Text>
                 </Stack>
               </VStack>
