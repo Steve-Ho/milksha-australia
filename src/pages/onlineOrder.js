@@ -16,9 +16,13 @@ const onlineOrder = () => {
       <Helmet>
         <html lang="en" />
         <meta charSet="utf-8" />
+<<<<<<< HEAD
         <title>Milksha Australia - Online Order - Elizabeth</title>
+=======
+        <title>Milksha Australia - Online Order</title>
+>>>>>>> 468f0d20172fae0dcffff52f867104785facb5dd
         <meta name="description" content="Milksha Online Order" />
-        <script type="text/javascript" src="https://w.abacus.co/distwc/js/AbacusOnlineOrderingImport.js" async defer></script>
+        {/* <script type="text/javascript" src="https://w.abacus.co/distwc/js/AbacusOnlineOrderingImport.js" async defer></script> */}
       </Helmet>
       <Fonts />
       <Header />
