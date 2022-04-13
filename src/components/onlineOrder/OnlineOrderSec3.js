@@ -5,7 +5,7 @@ import {
 
   
   
-  export default function Store3() { 
+  export default function OnlineOrderSec3() { 
     
 
     return (
