@@ -15,7 +15,7 @@ import {
     
 
     return (
-        <Stack direction={["column", "row"]} mt="5" justify="center">
+        <Stack direction={["column", "row"]} m="5" justify="center">
             <Link href="/onlineOrder">
                     <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
             <Image src={store1} alt="Elizabeth Store" />
