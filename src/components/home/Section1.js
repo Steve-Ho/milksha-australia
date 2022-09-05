@@ -40,7 +40,7 @@ import {
                 size={'lg'}
                 py={8}
             >
-              <Link href="./allOnlineOrders">
+              <Link href="./menu">
                 Taste the <br/>freshness today!
               </Link>
             </Button>

@@ -81,7 +81,8 @@ const MenuLinks = ({ isOpen }) => {
         <MenuItem to="/about">About</MenuItem>
         <MenuItem to="/franchise">Franchise</MenuItem>
         <MenuItem to="/contact">Contact</MenuItem>
-        <MenuItem to="/allOnlineOrders" isLast>
+        {/* <MenuItem to="/news">News</MenuItem> */}
+        <MenuItem to="https://w.abacus.co/signup/2570654" isLast isExternal>
           <Button
             size="sm"
             rounded="full"
@@ -96,7 +97,7 @@ const MenuLinks = ({ isOpen }) => {
             borderColor={"primary.100"}
             fontFamily={'extrabold'}
           >
-            Online Orders
+            Membership Signup
           </Button>
         </MenuItem>   
         
