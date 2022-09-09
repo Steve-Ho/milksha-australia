@@ -1,0 +1,7 @@
+.news_link {
+    text-decoration: none !important;
+}
+
+.news_link:focus {
+    box-shadow: none !important;
+}

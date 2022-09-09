@@ -81,7 +81,7 @@ const MenuLinks = ({ isOpen }) => {
         <MenuItem to="/about">About</MenuItem>
         <MenuItem to="/franchise">Franchise</MenuItem>
         <MenuItem to="/contact">Contact</MenuItem>
-        {/* <MenuItem to="/news">News</MenuItem> */}
+        <MenuItem to="/news">News</MenuItem>
         <MenuItem to="https://w.abacus.co/signup/2570654" isLast isExternal>
           <Button
             size="sm"
