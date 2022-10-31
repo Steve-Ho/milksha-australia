@@ -139,7 +139,7 @@ export default function Section3() {
         <VStack>
             <Image src={Drink10} />
             <Text fontFamily="bold" color="primary.100">
-              Watermelon Lemon Juice <br/><small>with herbal jelly</small>
+              Wintermelon Lemon Juice <br/><small>with herbal jelly</small>
             </Text>
           </VStack>
         </SwiperSlide>
