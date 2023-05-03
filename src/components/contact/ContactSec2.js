@@ -101,13 +101,19 @@ import map_eliz from '../../images/contact/map1.png'
                     textTransform={"uppercase"}
                     pt={10}
                   >
-                    Victoria suburbs
+                    <Link href="https://www.google.com/maps/place/Milksha+QV/@-37.8103574,144.9633455,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad643481b8ca625:0x5a6caaca03a99086!8m2!3d-37.8103574!4d144.9655342!16s%2Fg%2F11txj9dj4d" isExternal>Milksha QV</Link>
                   </Text>
                   <Text
                     color={"primary.200"}
                     fontSize={useBreakpointValue({ base: "md", md: "xl" })}
                   >
-                    Coming soon...
+                    R02-022
+                    <br />
+                    15 Red Cape Lane
+                    <br />
+                    Melbourne VIC 3000
+                    <br />
+                    (QV FLOOR G)
                   </Text>
                 </Stack>
               </VStack>
