@@ -107,13 +107,11 @@ import map_eliz from '../../images/contact/map1.png'
                     color={"primary.200"}
                     fontSize={useBreakpointValue({ base: "md", md: "xl" })}
                   >
-                    R02-022
+                    QV Square
                     <br />
                     15 Red Cape Lane
                     <br />
                     Melbourne VIC 3000
-                    <br />
-                    (QV FLOOR G)
                   </Text>
                 </Stack>
               </VStack>
