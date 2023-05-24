@@ -16,6 +16,8 @@ import {
   import instagramIcon from '../images/icons/ig.svg'
   import fbIcon from '../images/icons/fb.svg'
   
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+
   export default function Footer() {
     return (
       <Box
@@ -62,7 +64,7 @@ import {
             color={'white'}
         >
             <Text>
-                © 2022 Milksha. All rights reserved
+                © <span id="year"></span> Milksha. All rights reserved
             </Text>
             <Stack direction={'row'} spacing={3}>
                 <Link href="https://www.instagram.com/milksha_australia/" isExternal>
