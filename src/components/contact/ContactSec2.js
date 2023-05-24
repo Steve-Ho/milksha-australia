@@ -36,7 +36,7 @@ import map_eliz from '../../images/contact/map1.png'
         <TabPanels>
           <TabPanel>
             <Image src={map_eliz} maxWidth={{ base: "100%", md: "500px" }} />
-            <Flex w={"full"} fontFamily={"Arial"} py={5} textAlign={"left"}>
+            <Flex w={"full"} fontFamily={"bold"} py={5} textAlign={"left"}>
               <VStack
                 w={"full"}
                 justify={"center"}
