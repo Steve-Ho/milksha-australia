@@ -9830,10 +9830,10 @@
   "resolved" "https://registry.npmjs.org/nan/-/nan-2.14.2.tgz"
   "version" "2.14.2"
 
-"nanoid@^3.1.20", "nanoid@^3.1.23":
-  "integrity" "sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw=="
-  "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.1.23.tgz"
-  "version" "3.1.23"
+"nanoid@^3.1.20", "nanoid@^3.3.6":
+  "integrity" "sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA=="
+  "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.3.6.tgz"
+  "version" "3.3.6"
 
 "nanomatch@^1.2.9":
   "integrity" "sha512-fpoe2T0RbHwBTBUOftAfBPaDEi06ufaUai0mE6Yn1kacc3SnTErfb/h+X94VXzI64rKFHYImXSvdwGGCmwOqCA=="
@@ -10686,6 +10686,11 @@
   "resolved" "https://registry.npmjs.org/physical-cpu-count/-/physical-cpu-count-2.0.0.tgz"
   "version" "2.0.0"
 
+"picocolors@^1.0.0":
+  "integrity" "sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ=="
+  "resolved" "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
+  "version" "1.0.0"
+
 "picomatch@^2.0.4", "picomatch@^2.2.1", "picomatch@^2.2.3":
   "integrity" "sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw=="
   "resolved" "https://registry.npmjs.org/picomatch/-/picomatch-2.3.0.tgz"
@@ -11091,7 +11096,16 @@
   "resolved" "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz"
   "version" "4.1.0"
 
-"postcss@^7.0.0 || ^8.0.1", "postcss@^8.0.9", "postcss@^8.1.0", "postcss@^8.1.4", "postcss@^8.2.2", "postcss@8.2.6":
+"postcss@^7.0.0 || ^8.0.1", "postcss@^8.0.9", "postcss@^8.1.0", "postcss@^8.1.4", "postcss@^8.2.15", "postcss@^8.2.2", "postcss@^8.2.9", "postcss@^8.4.27":
+  "integrity" "sha512-gY/ACJtJPSmUFPDCHtX78+01fHa64FaU4zaaWfuh1MhGJISufJAH4cun6k/8fwsHYeK4UQmENQK+tRLCFJE8JQ=="
+  "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.4.27.tgz"
+  "version" "8.4.27"
+  dependencies:
+    "nanoid" "^3.3.6"
+    "picocolors" "^1.0.0"
+    "source-map-js" "^1.0.2"
+
+"postcss@8.2.6":
   "integrity" "sha512-xpB8qYxgPuly166AGlpRjUdEYtmOWx2iCwGmrv4vqZL9YPVviDVPZPRXxnXr6xPZOdxQ9lp3ZBFCRgWJ7LE3Sg=="
   "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.2.6.tgz"
   "version" "8.2.6"
@@ -11099,15 +11113,6 @@
     "colorette" "^1.2.1"
     "nanoid" "^3.1.20"
     "source-map" "^0.6.1"
-
-"postcss@^8.2.15", "postcss@^8.2.9":
-  "integrity" "sha512-NxTuJocUhYGsMiMFHDUkmjSKT3EdH4/WbGF6GCi1NDGk+vbcUTun4fpbOqaPtD8IIsztA2ilZm2DhYCuyN58gA=="
-  "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.3.5.tgz"
-  "version" "8.3.5"
-  dependencies:
-    "colorette" "^1.2.2"
-    "nanoid" "^3.1.23"
-    "source-map-js" "^0.6.2"
 
 "potrace@^2.1.8":
   "integrity" "sha512-V9hI7UMJyEhNZjM8CbZaP/804ZRLgzWkCS9OOYnEZkszzj3zKR/erRdj0uFMcN3pp6x4B+AIZebmkQgGRinG/g=="
@@ -12541,10 +12546,10 @@
   "resolved" "https://registry.npmjs.org/source-list-map/-/source-list-map-2.0.1.tgz"
   "version" "2.0.1"
 
-"source-map-js@^0.6.2":
-  "integrity" "sha512-/3GptzWzu0+0MBQFrDKzw/DvvMTUORvgY6k6jd/VS6iCR4RDTKWH6v6WPwQoUO8667uQEf9Oe38DxAYWY5F/Ug=="
-  "resolved" "https://registry.npmjs.org/source-map-js/-/source-map-js-0.6.2.tgz"
-  "version" "0.6.2"
+"source-map-js@^1.0.2":
+  "integrity" "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw=="
+  "resolved" "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
+  "version" "1.0.2"
 
 "source-map-resolve@^0.5.0":
   "integrity" "sha512-Htz+RnsXWk5+P2slx5Jh3Q66vhQj1Cllm0zvnaY98+NFx+Dv2CF/f5O/t8x+KaNdrdIAsruNzoh/KpialbqAnw=="
