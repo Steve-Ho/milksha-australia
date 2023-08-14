@@ -1,2 +1,0 @@
-(self.webpackChunkmilksha_australia=self.webpackChunkmilksha_australia||[]).push([[678],{7704:function(e,l,t){"use strict";t.r(l);var a=t(7294),n=t(1996),u=t(5072),r=t(1498),c=t(6883),s=t(9282),m=t(7417);l.default=function(){return a.createElement(c.x,{theme:s.Z},a.createElement(m.Z,null),a.createElement(u.Z,null),a.createElement(n.default,null),a.createElement(r.Z,null))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-713978fc8d5f126a96e7.js.map
